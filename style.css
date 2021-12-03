@@ -1,0 +1,13 @@
+li {
+    list-style-type: none;
+}
+body {
+   width:100 vh;
+   height:100vw ; 
+   background: aquamarine;
+}
+.pageprinc {
+    width: 700px;
+    height: 800px;
+    background: blue;
+}
