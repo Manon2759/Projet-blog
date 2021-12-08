@@ -1,13 +1,115 @@
-li {
+nav li {
     list-style-type: none;
+    margin: auto;
+    
 }
+
 body {
-   width:100 vh;
-   height:100vw ; 
-   background: aquamarine;
+    width: 100 vh;
+    height: 223vw;
+    background-color:rgb(243, 232, 232);
 }
-.pageprinc {
-    width: 700px;
-    height: 800px;
-    background: blue;
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 202, 202);
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgb(184, 149, 149);
+ 
+    
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px; 
+    padding: 50px;
+
+}
+nav a:hover {
+    color: rgb(134, 89, 89) ;
+}
+h1 { 
+    font-size: 40px;
+    margin-left: 380px;
+
+}
+.bloc1 p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.bloc2 p {
+    margin-left: var(--marginbloc);
+    margin-right: var(--marginbloc);
+    margin-top: 30px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: var(--marginbloc);
+    font-size: var(--sizetitle);
+}
+:root {
+    --marginbloc :5%;
+    --sizetitle: 30px ;
+    --sizesoustitle : 20px;
+}
+.bloc3  {
+    margin-left: var(--marginbloc);
+    margin-right: var(--marginbloc);
+    margin-bottom: 30px;
+}
+.bloc3 p {
+    margin-top: 30px;
+}
+h3 {
+    text-align: center;
+    font-size: var(--sizetitle);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.accentue {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.parbloc3 {
+    margin-bottom: 30px;
+}
+.sympcuta, .sympautre, .sympmusc{
+    
+    font-size: var(--sizesoustitle);
+    font-weight: bold;
+}
+.photo1cuta {
+    width: 300px;
+    height: 170px;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+.photo2cuta {
+    width: 320px;
+    height: 170px;
+    border-radius: 10px;
+
+}
+.imagescuta {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.muscles {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40%;
 }
