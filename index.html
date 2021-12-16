@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Dermatomyosite</title>
 </head>
 
@@ -16,14 +16,21 @@
         <section class="containerlogo">
             <img class="logo" src="images/logo.png" alt="logo-de-la-page">
         </section>
+
         <nav class="barrenav">
-            <ul>
-                <li><a href="index.html">Accueil </a> </li>
-                <li><a href="conseils.html">Conseils </a></li>
-                <li><a href="recettes.html">Recettes </a></li>
-                <li><a href="contact.html">Contact </a></li>
-            </ul>
-        </nav>
+            <ul class="bloc-ul">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil </a> </li>
+                <li class="nav-item"><a class="nav-link" href="conseils.html">Conseils </a></li>
+                <li class="nav-item"><a class="nav-link" href="recettes.html">Recettes </a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact </a></li>
+            </ul></nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        
+
         <section class="imgprinc">
             <img class="invisible" src="images/invisible.jpg" alt="image-handicap-invisible">
         </section>
@@ -130,11 +137,11 @@
                 une absence des graisses dans certaines zones du corps. <br>
             <section class="imagescuta" id="imagescuta">
                 <img class="photo1cuta" src="images/cutane.jpg" alt="photo atteinte cutanée main">
-                <img class="photo2cuta" src="images/erythyeux.jpg" alt="érythème au niveau des yeux"> <br>
+                <img class="photo2cuta" src="images/erythyeux.jpg" alt="érythème au niveau des yeux">
             </section>
 
             <span class="sympmusc"> Les atteintes musculaires </span> <br>
-
+                <div class="paragraphemuscle">
             <p> dermatomyosite entraîne souvent une faiblesse musculaire (ou hypotonie) plus ou moins marquée selon
                 les patients. <br>
                 Ainsi certains n’ont aucune faiblesse musculaire, tandis que d’autres patients vont avoir
@@ -148,8 +155,10 @@
 
                 Les patients souffrent alors de myalgies, autrement dit de douleurs musculaires, particulièrement
                 lors
-                des mouvements. <br>
-                <img class="muscles" src="images/muscles.jpg" alt="mucles corps humain "> <br>
+                des mouvements. </div>
+            <div class="muscles">
+                <img class="imagemuscle" src="images/muscles.jpg" alt="mucles corps humain ">
+            </div>
             </p>
 
             <span class="sympautre"> Les autres atteintes </span> <br>
@@ -184,7 +193,7 @@
         </div>
 
     </section>
-    <footer></footer>
+    
+   <script src="script.js"></script>
 </body>
-
 </html>
