@@ -110,11 +110,12 @@ nav a:hover {
     }
 
     .bloc-ul {
+        margin-top: 10%;
         flex-direction: column;
         display: none;
         position: relative;
         top: 28px;
-        right: 130px;
+        right: 5px;
     }
 
     .barrenav {
@@ -122,6 +123,16 @@ nav a:hover {
     }
     .nav-link {
         color: var(--colortitle);
+        font-size: 30px;
+    }
+    .invisible {
+        margin-top: 20%;
+    }
+    .display-none {
+        display: none;
+    }
+    .display-flex {
+        display: flex;
     }
 
 }

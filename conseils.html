@@ -13,12 +13,12 @@
 
 
     <header>
-        <section class="containerlogo">
+        <section class="containerlogo display-flex">
             <img class="logo" src="images/logo.png" alt="logo-de-la-page">
         </section>
 
         <nav class="barrenav">
-            <ul class="bloc-ul">
+            <ul class="bloc-ul display-none">
                 <li class="nav-item"><a class="nav-link" href="index.html">Accueil </a> </li>
                 <li class="nav-item"><a class="nav-link" href="conseils.html">Conseils </a></li>
                 <li class="nav-item"><a class="nav-link" href="recettes.html">Recettes </a></li>
@@ -31,26 +31,16 @@
             <span class="bar"></span>
         </div>
     </header>
-    <!-- <div class="parentsymptomes"> -->
-    <section class="symptomes">
-        <div class="titresymptomes">
-            <h1> Comment cela à commencer pour moi : </h1>
-            <ul>
-                <li>Erythème des yeux</li>
-                <li>Papules des mains</li>
-                <li>Mal de gorge</li>
-                <li>Douleurs musculaires (cou, bras, jambes, machoire)</li>
-                <li>Paralysie de tous les muscles dû à la douleur</li>
-            </ul>
-        </div>
-    </section>
+
+
     <h2>Quels sont les traitements ? Et comment les appréhender ! </h2>
-    <p>Les principaux traitements sont :
-    <ul class="traitements">
-        <li>corticoïdes</li>
-        <li>Méthotrexate</li>
-    </ul>
-    </p>
+    <p class="sous-titre-traitements">Les principaux traitements sont : </p>
+    <section class="traitements" >
+        <img class="img-methotrexate" src="images/methotrexate.png">
+        <img class="img-cortisone" src="images/cortisone.png">
+    </section>
+        
+   
     <h3>Les corticoïdes qu'est ce que c'est ?</h3>
     <p> Les corticoïdes sont une forme du médicament anti-inflammatoire qui est utilisé généralement pour traiter des
         éditions liées aux joints, aux tissus mous, et aux tissus conjonctifs. <br>
@@ -59,9 +49,9 @@
     <div class="titreinde"> Quels sont les effets indésirables de la cortisone et comment peut on les eviter pour
         certains ? </div>
     <div class="effetsinde">
-        <div class="pdp"> Prise de poids </div>
-        <div class="gdv"> Gonflement <br> du visage </div>
-        <div class="autreseff"> Autres </div>
+        <div class="pdp"> <a href="#pdp"> Prise de poids </a> </div>
+        <div class="gdv"> <a href="#gdv"> Gonflement <br> du visage </a></div>
+        <div class="autreseff"> <a href="#autres"> Autres </a></div>
     </div>
     <div class="paragraphebulles1">
         <p> Au dessus de 10mg de cortisone/jour vous serez concerné par certains effets indésirables. <br>
@@ -69,7 +59,7 @@
         </p>
 
         <div class="titrepdp">
-            <div class="sous-titre-pdp"> Prise de poids</div>
+            <div class="sous-titre-pdp"> <a id="pdp"></a> Prise de poids</div>
         </div>
         <ul class="conseilsbulles1">
             <li> Eviter le sel et le sucre, en mangeant principalement du fait maison. </li>
@@ -85,7 +75,7 @@
         </ul>
     </div>
     <div class="titregdv">
-        <div class="sous-titre-gdv"> Gonflements du visage</div>
+        <div class="sous-titre-gdv"> <a id="gdv"> Gonflements du visage </a></div>
         <ul class="conseilsbulles2">
             <li> Cela revient mais éviter un maximum le sel </li>
             <li> Drainage lymphatique du visage </li>
@@ -95,10 +85,14 @@
 
     </div>
     <div class="titreautres">
-        <div class="sous-titre-autres"> Autres</div>
-        <ul class=""></ul>
+        <div class="sous-titre-autres"> <a id="autres"> Autres </a> </div>
+        <ul class="conseilsbulle3"></ul>
+        <li> Pour les douleurs musculaires, prendre des bains, la cortisone détruit le muscle et engeandre des douleurs.
+        </li>
+        <li> Eviter sport de contact, ou tout autres activités de contact, auquel cas vous verez votre corps rempli de
+            bleus à cause de la cortisone. </li>
     </div>
 
-    <!-- </div> -->
+  
     <script src="script.js"></script>
 </body>

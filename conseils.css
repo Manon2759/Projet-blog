@@ -82,22 +82,19 @@ nav a:hover {
     justify-content: center;
 }
 
-.symptomes {
-    display: flex;
-    justify-content: center;
+h2 {
     margin-top: 10%;
-    margin-bottom: 10%;
-    width: 100%;
-}
-.titresymptomes li {
-    list-style-type: none;
-}
-h1 {
     font-size: 25px;
     text-align: center;
-    text-decoration: underline;
+    color: var(--colortitle);
+    font-family: var(--policetitle);
+}
+
+.sous-titre-traitements {
+    text-align: center;
     color: var(--colortitle);
 }
+
 .hamburger {
     display: none;
 }
@@ -111,42 +108,66 @@ h1 {
     background-color: var(--colortitle);
     margin-bottom: 3px;
 }
+
 .pdp {
-    margin:10px;
-    width:120px;
-    background:#FF0000;
-    height:120px;
-    text-align:center;
-    border-radius:100px;
+    margin: 10px;
+    width: 120px;
+    background: var(--colortitle);
+    color: white;
+    font-family: var(--policesoustitle);
+    height: 120px;
+    text-align: center;
+    border-radius: 50%;
     line-height: 110px;
 }
 
 .gdv {
     margin: 10px;
     width: 120px;
-    background: #FF0000;
+    background: var(--colortitle);
+    color: white;
+    font-family: var(--policesoustitle);
     height: 97px;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 50%;
     line-height: 21px;
     height: 80px;
     padding-top: 40px;
 
 }
+
 .autreseff {
-    margin:10px;
-    width:120px;
-    background:#FF0000;
-    height:120px;
-    text-align:center;
-    border-radius:100px;
+    margin: 10px;
+    width: 120px;
+    background: var(--colortitle);
+    height: 120px;
+    text-align: center;
+    border-radius: 50%;
     line-height: 110px;
 
 }
+
 .effetsinde {
     width: 100%;
     height: 200px;
     margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.effetsinde a {
+    text-decoration: none;
+    font-family: var(--policetitle);
+    color: white;
+    font-size: 20px;
+}
+
+.img-methotrexate, .img-cortisone {
+    width: 300px;
+    height: 170px;
+}
+
+.traitements {
     display: flex;
     justify-content: space-around;
 }
@@ -165,17 +186,44 @@ h1 {
     }
 
     .bloc-ul {
+        margin-top: 10%;
         flex-direction: column;
         display: none;
         position: relative;
         top: 28px;
-        right: 130px;
+        right: 5px;
     }
+
     .barrenav {
         width: 100%;
     }
+
     .nav-link {
         color: var(--colortitle);
+        font-size: 30px;
+    }
+    .invisible {
+        margin-top: 20%;
     }
 
+    .display-none {
+        display: none;
+    }
+
+    .display-flex {
+        display: flex;
+    }
+
+    .traitements {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        margin-top: 30%;
+    }
+
+    body {
+        text-align: center;
+    }
 }
