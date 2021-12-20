@@ -8,26 +8,42 @@
     <link rel="stylesheet" href="contact.css">
     <title>Dermatomyosite</title>
 </head>
-<body>
-    
 
-<header>
-    <section class="containerlogo display-flex">
-        <img class="logo" src="images/logo.png" alt="logo-de-la-page">
-    </section>
-  
-    <nav class="barrenav">
-        <ul class="bloc-ul display-none">
-            <li class="nav-item"><a class="nav-link" href="index.html">Accueil </a> </li>
-            <li class="nav-item"><a class="nav-link" href="conseils.html">Conseils </a></li>
-            <li class="nav-item"><a class="nav-link" href="recettes.html">Recettes </a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact </a></li>
-        </ul></nav>
+<body>
+
+
+    <header>
+        <section class="containerlogo display-flex">
+            <img class="logo" src="images/logo.png" alt="logo-de-la-page">
+        </section>
+
+        <nav class="barrenav">
+            <ul class="bloc-ul display-none">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil </a> </li>
+                <li class="nav-item"><a class="nav-link" href="conseils.html">Conseils </a></li>
+                <li class="nav-item"><a class="nav-link" href="recettes.html">Recettes </a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact </a></li>
+            </ul>
+        </nav>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-</header>
-<script src="script.js"></script>
+    </header>
+    <section class="parent-img">
+        <img class="fleur-img" src="images/flerus de cerisier.png" alt="fleurs de cerisier">
+    </section>
+    <h1> Formulaire de contact</h1>
+    <div class="carte-contact" >
+    <form class="formulaire-contact" id="form-contact">
+        
+            <label for="Nom"></label>
+            <input type="text" id="Nom" name="nom" placeholder="Nom" required> <br>
+            <label for="Email"></label>
+            <input type="text" id="Email" name="Email" placeholder="Email"> <br>
+            <textarea id="message" name="message" placeholder="Ecrivez-ici"></textarea>  <br>
+            <div class="parent-boutton"><input class="boutton"  type="submit" value="Envoyer"> </div></form>
+        </div>
+        <script src="script.js"></script>
 </body>

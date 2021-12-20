@@ -54,6 +54,7 @@ nav ul {
 .barrenav {
     display: flex;
     justify-content: center;
+    margin-bottom: 20%;
 }
 
 nav li a {
@@ -95,6 +96,66 @@ nav a:hover {
     background-color: var(--colortitle);
     margin-bottom: 3px;
 }
+h1 {
+    font-family: var(--policetitle);
+    font-size: 40px ;
+    color: var(--colortitle);
+    text-align: center;
+
+}
+.carte-contact {
+    
+    width: 800px;
+    height: 400px;
+    background-color: var(--colortitle);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.fleur-img {
+    
+    top: 30px;
+}
+
+.formulaire-contact {
+    margin: auto;
+    padding: 1em;
+}
+ input   {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 50px;
+    border-radius: 7px;
+    font-family: var(--policeblocs);
+    font-size: 15px;
+    color: var(--colortitle);
+    border: 2px solid black;
+   
+}
+
+textarea {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 50px;
+    border-radius: 7px;
+    font-family: var(--policeblocs);
+    font-size: 15px;
+    color: var(--colortitle);
+    border: 2px solid black;
+}
+.boutton {
+    width: 200px;
+    font-weight: bold;
+    color: rgb(255, 0, 85);
+}
+.parent-boutton {
+display: flex;
+justify-content: center;
+}
+
 
 @media screen and (max-width: 768px) {
     .hamburger {
@@ -125,14 +186,51 @@ nav a:hover {
         color: var(--colortitle);
         font-size: 30px;
     }
-    .invisible {
-        margin-top: 20%;
-    }
     .display-none {
         display: none;
     }
     .display-flex {
         display: flex;
     }
-
+    .carte-contact {
+        width: 400px;
+        height: 300px;
+        background-color: var(--colortitle);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+    .formulaire-contact {
+        margin: auto;
+        padding: 1em;
+    }
+     input   {
+        margin-bottom: 10px;
+        width: 300px;
+        height: 30px;
+        border-radius: 6px;
+        font-family: var(--policeblocs);
+        font-size: 10px;
+        color: var(--colortitle);
+    }
+    textarea {
+        margin-bottom: 10px;
+        width: 300px;
+        height: 30px;
+        border-radius: 6px;
+        font-family: var(--policeblocs);
+        font-size: 10px;
+        color: var(--colortitle);
+    }
+    .boutton {
+        width: 100px;
+        font-size: 15px;
+    }
+    .parent-boutton {
+    display: flex;
+    justify-content: center;
+    }
 }

@@ -120,9 +120,6 @@ nav a:hover {
         color: var(--colortitle);
         font-size: 30px;
     }
-    .invisible {
-        margin-top: 20%;
-    }
     .display-none {
         display: none;
     }

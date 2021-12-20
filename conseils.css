@@ -27,7 +27,19 @@
     font-family: "alegreya";
     src: url(Polices/Alegreya-VariableFont_wght.ttf);
 }
+.hamburger {
+    display: none;
+}
 
+.bar {
+    display: block;
+    border-radius: 1px;
+    width: 25px;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--colortitle);
+    margin-bottom: 3px;
+}
 nav li {
     list-style-type: none;
     margin: auto;
@@ -81,33 +93,56 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
-
-h2 {
-    margin-top: 10%;
-    font-size: 25px;
+.img-methotrexate, .img-cortisone {
+    width: 300px;
+    height: 170px;
+}
+h2, h3 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-size: 30px;
     text-align: center;
     color: var(--colortitle);
     font-family: var(--policetitle);
+    text-decoration: underline;
 }
 
-.sous-titre-traitements {
+.sous-titre-traitements, .titreinde {
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     color: var(--colortitle);
+    font-family: var(--policesoustitle);
+    font-size: 20px;
+    font-weight: bold;
+}
+.bloc-corticoides {
+    margin-left: var(--marginbloc);
+    font-family: var(--policeblocs);
+}
+.paragraphebulle1 p {
+    margin-left: var(--marginbloc);
+    font-family: var(--policeblocs);
+    text-align: center;
+}
+.titre-pdp, .titre-gdv, .titre-autres {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: center;
+    color: var(--colortitle);
+    font-family: var(--policetitle);
+    font-weight: bold;
+}
+.attention {
+    color: var(--colortitle);
+    font-size: 25px;
+    margin-left: var(--marginbloc);
+    font-family: var(--policeblocs);
+    text-align: center;
+    margin-right: 1%;
 }
 
-.hamburger {
-    display: none;
-}
-
-.bar {
-    display: block;
-    border-radius: 1px;
-    width: 25px;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-    background-color: var(--colortitle);
-    margin-bottom: 3px;
-}
 
 .pdp {
     margin: 10px;
@@ -162,14 +197,14 @@ h2 {
     font-size: 20px;
 }
 
-.img-methotrexate, .img-cortisone {
-    width: 300px;
-    height: 170px;
-}
-
 .traitements {
     display: flex;
     justify-content: space-around;
+}
+.conseilsbulle1, .conseilsbulle2, .conseilsbulle3 {
+    margin-left: var(--marginbloc);
+    font-family: var(--policeblocs);
+
 }
 
 @media screen and (max-width: 768px) {
@@ -202,10 +237,6 @@ h2 {
         color: var(--colortitle);
         font-size: 30px;
     }
-    .invisible {
-        margin-top: 20%;
-    }
-
     .display-none {
         display: none;
     }
