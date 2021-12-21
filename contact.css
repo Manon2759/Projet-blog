@@ -54,7 +54,6 @@ nav ul {
 .barrenav {
     display: flex;
     justify-content: center;
-    margin-bottom: 20%;
 }
 
 nav li a {
@@ -96,35 +95,61 @@ nav a:hover {
     background-color: var(--colortitle);
     margin-bottom: 3px;
 }
+
 h1 {
     font-family: var(--policetitle);
-    font-size: 40px ;
+    font-size: 60px;
     color: var(--colortitle);
     text-align: center;
+    margin-bottom: 20%;
+
 
 }
+
 .carte-contact {
-    
     width: 800px;
     height: 400px;
     background-color: var(--colortitle);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
     border-radius: 20px;
     opacity: 0.9;
+    display: flex;
+    justify-content: center;
 }
+
+.parent-carte {
+    display: flex;
+    justify-content: center;
+}
+
 .fleur-img {
-    
-    top: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 518px;
+    left: 255px;
+    z-index: 1;
+}
+
+.fleur-img2 {
+    -webkit-transform: rotate(deg);
+    -moz-transform: rotate(deg);
+    -ms-transform: rotate(deg);
+    -o-transform: rotate(deg);
+    transform: rotate(190deg);
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 867px;
+    left: 336px;
+    z-index: 1;
 }
 
 .formulaire-contact {
     margin: auto;
     padding: 1em;
 }
- input   {
+
+input {
     margin-bottom: 10px;
     width: 500px;
     height: 50px;
@@ -133,7 +158,7 @@ h1 {
     font-size: 15px;
     color: var(--colortitle);
     border: 2px solid black;
-   
+
 }
 
 textarea {
@@ -145,15 +170,18 @@ textarea {
     font-size: 15px;
     color: var(--colortitle);
     border: 2px solid black;
+
 }
+
 .boutton {
     width: 200px;
     font-weight: bold;
     color: rgb(255, 0, 85);
 }
+
 .parent-boutton {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -182,16 +210,20 @@ justify-content: center;
     .barrenav {
         width: 100%;
     }
+
     .nav-link {
         color: var(--colortitle);
         font-size: 30px;
     }
+
     .display-none {
         display: none;
     }
+
     .display-flex {
         display: flex;
     }
+
     .carte-contact {
         width: 400px;
         height: 300px;
@@ -203,11 +235,13 @@ justify-content: center;
         border-radius: 10px;
         opacity: 0.9;
     }
+
     .formulaire-contact {
         margin: auto;
         padding: 1em;
     }
-     input   {
+
+    input {
         margin-bottom: 10px;
         width: 300px;
         height: 30px;
@@ -216,6 +250,7 @@ justify-content: center;
         font-size: 10px;
         color: var(--colortitle);
     }
+
     textarea {
         margin-bottom: 10px;
         width: 300px;
@@ -225,12 +260,33 @@ justify-content: center;
         font-size: 10px;
         color: var(--colortitle);
     }
+
     .boutton {
         width: 100px;
         font-size: 15px;
     }
+
     .parent-boutton {
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fleur-img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 229px;
+        position: relative;
+        top: 508px;
+        left: -6px;
+    }
+
+    .fleur-img2 {
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        top: 639px;
+        left: 174px;
+        z-index: 1;
+        width: 229px;
     }
 }

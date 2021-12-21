@@ -88,15 +88,16 @@ nav a:hover {
 }
 
 .paragrapheprincipal h1 {
-    font-size: 50px;
+    font-size: 57px;
+    text-decoration: underline;
     text-align: center;
     margin-top: 7%;
     font-family: var(--policetitle);
     color: var(--colortitle);
-
 }
 
 .bloc1 p {
+    margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -159,7 +160,7 @@ h3 {
     font-weight: bold;
     font-family: var(--policesoustitle);
     font-style: italic;
-    color: rgb(70, 66, 66);
+    color: var(--colortitle)
 }
 
 .photo1cuta {
@@ -219,6 +220,7 @@ h3 {
     width: 100%;
     margin-left: var(--marginbloc);
     font-family: var(--policeblocs);
+    
 }
 .titresymptomes {
     text-decoration: underline var(--colortitle);
