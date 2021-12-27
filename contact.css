@@ -125,8 +125,6 @@ h1 {
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    top: 518px;
-    left: 255px;
     z-index: 1;
 }
 
@@ -139,11 +137,18 @@ h1 {
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    top: 867px;
-    left: 336px;
     z-index: 1;
 }
-
+.parent-fleur1 {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    
+}
+.parent-fleur2 {
+    display: flex;
+    justify-content: right;
+}
 .formulaire-contact {
     margin: auto;
     padding: 1em;
@@ -270,23 +275,23 @@ textarea {
         display: flex;
         justify-content: center;
     }
-
+    .containerlogo {
+        display: flex;
+        justify-content: center;
+    }
     .fleur-img {
         max-width: 100%;
         max-height: 100%;
         width: 229px;
         position: relative;
-        top: 508px;
-        left: -6px;
     }
 
     .fleur-img2 {
         max-width: 100%;
         max-height: 100%;
         position: relative;
-        top: 639px;
-        left: 174px;
         z-index: 1;
         width: 229px;
     }
+
 }
