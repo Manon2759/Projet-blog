@@ -36,7 +36,7 @@ nav li {
 
 body {
     width: 100 vh;
-    height: 350vw;
+    height: 120vw;
     background-color: white;
 }
 
@@ -47,8 +47,7 @@ nav ul {
     padding: 0;
     height: 60px;
     width: 70%;
-    border-top: 1px solid black;
-
+    border-top: 2px solid var(--colortitle);
 }
 
 .barrenav {
@@ -64,7 +63,7 @@ nav li a {
 }
 
 nav a:hover {
-    color: rgb(206, 191, 191);
+    color: var(--colortitle);
 }
 
 .containerlogo {
@@ -101,9 +100,7 @@ h1 {
     font-size: 60px;
     color: var(--colortitle);
     text-align: center;
-    margin-bottom: 20%;
-
-
+    margin-top: 10%;
 }
 
 .carte-contact {
@@ -126,6 +123,8 @@ h1 {
     max-height: 100%;
     position: relative;
     z-index: 1;
+    top: 122px;
+    left: 212px;
 }
 
 .fleur-img2 {
@@ -138,6 +137,8 @@ h1 {
     max-height: 100%;
     position: relative;
     z-index: 1;
+    bottom: 150px;
+    left: -211px;
 }
 .parent-fleur1 {
     display: flex;
@@ -157,38 +158,50 @@ h1 {
 input {
     margin-bottom: 10px;
     width: 500px;
-    height: 50px;
+    height: 40px;
     border-radius: 7px;
     font-family: var(--policeblocs);
     font-size: 15px;
     color: var(--colortitle);
     border: 2px solid black;
-
+    cursor: pointer;
+    font-weight: bold;
 }
 
 textarea {
     margin-bottom: 10px;
     width: 500px;
-    height: 50px;
+    height: 70px;
     border-radius: 7px;
     font-family: var(--policeblocs);
     font-size: 15px;
     color: var(--colortitle);
     border: 2px solid black;
-
+    cursor: pointer;
+    font-weight: bold;
+}
+ ::placeholder {
+    color: var(--colortitle);
 }
 
 .boutton {
     width: 200px;
     font-weight: bold;
     color: rgb(255, 0, 85);
+    cursor: pointer;
 }
 
 .parent-boutton {
     display: flex;
     justify-content: center;
 }
-
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: var(--colortitle);
+    opacity: 0.9;
+    border: 1px solid black;
+}
 
 @media screen and (max-width: 768px) {
     .hamburger {

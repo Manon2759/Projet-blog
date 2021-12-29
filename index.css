@@ -35,7 +35,8 @@ nav li {
 }
 
 body {
-    height: 350vw;
+    width: 100%;
+    height: 300vw;
     background-color: white;
 }
 
@@ -46,7 +47,7 @@ nav ul {
     padding: 0;
     height: 60px;
     width: 70%;
-    border-top: 1px solid black;
+    border-top: 2px solid var(--colortitle);
 
 }
 
@@ -63,7 +64,7 @@ nav li a {
 }
 
 nav a:hover {
-    color: rgb(206, 191, 191);
+    color: var(--colortitle);
 }
 
 .containerlogo {
@@ -217,7 +218,7 @@ h3 {
 .symptomes {
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 100%;
+    width: 80%;
     margin-left: var(--marginbloc);
     font-family: var(--policeblocs);
     
@@ -225,6 +226,13 @@ h3 {
 .titresymptomes {
     text-decoration: underline var(--colortitle);
    
+}
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: var(--colortitle);
+    opacity: 0.9;
+    border: 1px solid black;
 }
 
 
