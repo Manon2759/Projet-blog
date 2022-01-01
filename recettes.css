@@ -112,13 +112,13 @@ footer {
 }
 
 .image-burger, .image-galette-wrap, .image-mayo {
-    width: 440px;
+    width: 413px;
     height: 500px;
 
 }
 
 .image-brioches, .image-brownie, .image-pate {
-    width: 440px;
+    width: 413px;
     height: 500px;
 }
 
@@ -150,7 +150,10 @@ footer {
     justify-content: space-around;
     padding-inline-start: 1em;
 }
-
+.lien-sale {
+    text-decoration: none;
+    color: var(--colortitle);
+}
 
 
 @media screen and (max-width: 768px) {
