@@ -11,11 +11,10 @@ hamburger.addEventListener("click", function () {
      logo.classList.toggle("display-none")
 })
 
-/* const message = "Merci pour votre message, à bientôt.";
+/*const message = "Merci pour votre message, à bientôt.";
+const contact = document.getElementById("form-contact")
 
-document
-  .getElementById("form-contact")
-  .addEventListener("submit", function (event) {
+contact.addEventListener("submit", function (event) {
     event.preventDefault();
     alert(message);
   }); */

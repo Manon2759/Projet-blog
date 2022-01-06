@@ -87,9 +87,11 @@ nav a:hover {
     width: 100%;
     margin-top: 3%;
 }
-
+h1 {
+    font-size: 55px;
+}
 .paragrapheprincipal h1 {
-    font-size: 57px;
+    font-size: 45px;
     text-decoration: underline;
     text-align: center;
     margin-top: 7%;
@@ -235,7 +237,7 @@ h3 {
     border: 1px solid black;} */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 330px) and (max-width: 992px) {
     .hamburger {
         position: relative;
         bottom: 264px;

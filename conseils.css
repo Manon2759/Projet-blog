@@ -222,8 +222,7 @@ iframe {
    height: 400px ;
    width: 100%;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 330px) and (max-width: 992px) {
     .hamburger {
         position: relative;
         bottom: 264px;
@@ -273,4 +272,8 @@ iframe {
     body {
         text-align: center;
     }
+    iframe {
+        margin-top: 10%;
+        height: 400px ;
+     }
 }

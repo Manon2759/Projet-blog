@@ -101,11 +101,13 @@ h1 {
     color: var(--colortitle);
     text-align: center;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .carte-contact {
     width: 800px;
     height: 400px;
+    position: relative;
     background-color: var(--colortitle);
     border-radius: 20px;
     opacity: 0.9;
@@ -119,37 +121,38 @@ h1 {
 }
 
 .fleur-img {
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: -100px;
     z-index: 1;
-    top: 122px;
-    left: 212px;
+    width: 370px;
+    height: 221px;
+    align-self: flex-start;
 }
 
 .fleur-img2 {
-    -webkit-transform: rotate(deg);
-    -moz-transform: rotate(deg);
-    -ms-transform: rotate(deg);
-    -o-transform: rotate(deg);
     transform: rotate(190deg);
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: -58px;
     z-index: 1;
-    bottom: 150px;
-    left: -211px;
+    width: 370px;
+    height: 221px;
+    align-self: flex-end;
 }
+
 .parent-fleur1 {
     display: flex;
     justify-content: left;
     width: 100%;
-    
+
 }
+
 .parent-fleur2 {
     display: flex;
     justify-content: right;
 }
+
 .formulaire-contact {
     margin: auto;
     padding: 1em;
@@ -180,7 +183,8 @@ textarea {
     cursor: pointer;
     font-weight: bold;
 }
- ::placeholder {
+
+::placeholder {
     color: var(--colortitle);
 }
 
@@ -197,7 +201,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 330px) and (max-width: 992px) {
     .hamburger {
         position: relative;
         bottom: 264px;
@@ -211,7 +215,7 @@ textarea {
     }
 
     .bloc-ul {
-        margin-top: 10%;
+        margin-top: 15%;
         flex-direction: column;
         display: none;
         position: relative;
@@ -282,23 +286,19 @@ textarea {
         display: flex;
         justify-content: center;
     }
-    .containerlogo {
-        display: flex;
-        justify-content: center;
-    }
+
     .fleur-img {
-        max-width: 100%;
-        max-height: 100%;
         width: 229px;
-        position: relative;
+        position: absolute;
+        height: 160px;
+        left: 0;
+        top: -79px;
     }
 
     .fleur-img2 {
-        max-width: 100%;
-        max-height: 100%;
-        position: relative;
-        z-index: 1;
+        position: absolute;
         width: 229px;
+        height: 160px;
     }
 
 }

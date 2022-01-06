@@ -11,27 +11,52 @@
 </head>
 
 <body>
+    <header>
+        <section class="containerlogo display-flex">
+            <img class="logo" src="images/logo.png" alt="logo-de-la-page">
+        </section>
+
+        <nav class="barrenav">
+            <ul class="bloc-ul display-none">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil </a> </li>
+                <li class="nav-item"><a class="nav-link" href="conseils.html">Conseils </a></li>
+                <li class="nav-item"><a class="nav-link" href="recettes.html">Recettes </a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact </a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
     <section class="ensemble-recettes-salees">
         <div class="parent-burger">
-            <h1 class="titre-burger"> Pains burgers (3pers)</h1>
-            <p class="ingr-burger"> Ingrédients</p>
+            <h2 class="titre-recettes"> Pains burgers (3pers)</h2>
+                <div class="parent-img">
+                    <img class="rappel-img" src="images/pains burgers.jpg" alt="image burgers">
+                </div>
+            
+            
           <table>
             <tr>
-                <td> 250 gr de farine </td>
-                <td>2,5 gr de levure de boulanger sèche / ou 6,30 gr de levure fraiche</td>
+                <td colspan="3" scope="colgroup"> 250 gr de farine </td>
+                <td colspan="3" scope="colgroup">2,5 gr de levure de boulanger sèche / ou 6,30 gr de levure fraiche</td>
             </tr>
             <tr>
-                    <td> 30 gr de beurre mou</td>
-                <td>15 cl de lait tiède </td>
+                <td colspan="3" scope="colgroup"> 30 gr de beurre mou</td>
+                <td colspan="3" scope="colgroup">15 cl de lait tiède </td>
                 
             </tr>
             <tr>
-                <td>1 C.A.S de substitue de sel</td>
-                <td>1 jaune d'oeuf</td>
-                <td>Graines au choix</td>
+                <td colspan="3" scope="colgroup">1 C.A.S de substitue de sel</td>
+                <td colspan="3" scope="colgroup">1 jaune d'oeuf</td>
+            </tr> 
+            <tr>
+                <td colspan="3" scope="colgroup">Graines au choix</td>
             </tr>
         </table>
-            <p class="recette-burger">
+            <p class="recettes-salees">
                 Mélanger la farine avec le substitue de sel. <br>
                 Délayer la levure dans le lait si elle est sèche pour la réactiver. <br>
                 Ajouter le reste des ingrédients avec la farine en finissant par la levure. <br>
@@ -46,15 +71,23 @@
             </p>
         </div>
         <div class="parent-wrap">
-            <h2 class="titre-wrap"> Wrap (4 pers)</h2>
-            <p class="ingr-wrap"> Ingrédients</p>
-            <ul>
-                <li>200 gr de farine </li>
-                <li>5 cl d'huile d'olives</li>
-                <li>8 cl d'eau</li>
-                <li>1 pincées de substitue de sel</li>
-            </ul>
-            <p class="recette-wrap">
+            <h2 class="titre-recettes"> Wrap (4 pers)</h2>
+                <div class="parent-img">
+                    <img class="rappel-img" src="images/galette wrap.jpg" alt="image wrap">
+                </div>
+            
+            <table>
+              <tr>
+                  <td colspan="2" scope="colgroup"> 200 gr de farine </td>
+                  <td colspan="2" scope="colgroup">5 cl d'huile d'olives</td>
+              </tr>
+              <tr>
+                  <td colspan="2" scope="colgroup"> 8 cl d'eau</td>
+                  <td colspan="2" scope="colgroup"> 1 pincée de sel </td>
+              </tr>
+            
+          </table>
+            <p class="recettes-salees">
                 Dans une robot, mettre la farine avec le sel. <br>
                 Mettre l'huile progressivement, puis finir par l'eau. <br>
                 Pétrir la pâte jusqu'à ce qu'elle soit homogène, rajouter un peu de farine si il le faut. <br>
@@ -66,21 +99,30 @@
             </p>
         </div>
         <div class="parent-mayonnaise">
-            <h3 class="titre-mayonnaise"> Mayonnaise light</h3>
-            <p class="ingr-mayo"> Ingrédients</p>
-            <ul>
-                <li> 1 petit pot yaourt fromage blanc</li>
-                <li>1 C.A.C de moutarde</li>
-                <li>1 jaune d'oeuf</li>
-                <li>Un peu de substitue de sel (selon ses goûts)</li>
-                <li>Un peu de citron</li>
-            </ul>
-            <p class="recette-mayonnaise">
+            
+            <h2 class="titre-recettes"> Mayonnaise light</h2>
+            <div class="parent-img">
+                <img class="rappel-img" src="images/mayonnaise-fromage-blanc-1.jpg" alt="image mayonnaise">
+            </div>
+            <table>
+              <tr>
+                  <td colspan="3" scope="colgroup"> 1 petit pot (yaourt) fromage blanc </td>
+                  <td colspan="3" scope="colgroup">1 C.A.C de moutarde</td>
+                  <td colspan="3" scope="colgroup">1 jaune d'oeuf </td>
+              </tr>
+              <tr>
+                  
+                  <td colspan="3" scope="colgroup">Un peu de substitue de sel (selon ses goûts)</td>
+                  <td colspan="3" scope="colgroup">Un peu de citron</td>
+              </tr>
+          </table>
+            
+            <p class="recettes-salees">
                 Dans un bol mélanger l'oeuf puis la moutarde. <br>
                 Ajouter petit à petit le fromage blanc en melangeant au fouet. <br>
                 Salé, proivrer.
             </p>
-        </div>
+            </div>
     </section>
     <script src="script.js"></script>
 </body>
