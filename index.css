@@ -250,15 +250,28 @@ select option {
     font-weight: bold;
     font-size: 20px;
 }
-select option:hover {
-    background-color: blueviolet;
-}
-
 .selector {
     display: flex;
     justify-content: center;
 }
+option {
+    display: flex;
+    width: 200px;
 
+}
+.img-selector {
+    width: 200px;
+    height: 200px;
+}
+.images-selector {
+    margin-top: 8%;
+    width: 50%;
+}
+.list-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 @media screen and (min-width: 330px) and (max-width: 992px) {
     .hamburger {
         position: relative;
@@ -306,5 +319,9 @@ select option:hover {
 }
 .display-flex {
     display: flex;
+}
+select option {
+    
+    font-size: 12px;
 }
 }
